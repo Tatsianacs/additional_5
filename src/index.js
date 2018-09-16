@@ -23,7 +23,7 @@ module.exports = function сheck(str, bracketsConfig) {
         if (!end.includes(str[j])) {
             return false;
         }
-        //check if array is empty or 1 element
+        //check if array is empty
         if (!s.length) {
             return false;
         }
