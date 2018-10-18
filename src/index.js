@@ -8,7 +8,7 @@ module.exports = function сheck(str, bracketsConfig) {
     };
     for (var j = 0; j < str.length; j++) {
         if (start.includes(str[j]) && end.includes(str[j])){
-            console.log('availeble in both parts');
+            console.log('available in both parts');  //special case when || i.e. the same start end
             if (!s.includes(str[j])) {
                 s.push(str[j]);
             } else {
